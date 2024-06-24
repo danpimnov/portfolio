@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"  type="text/css" href="/style/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="nickName">
+                @DanielPimenov
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <a href="#my-projects" class="navigationLink">Мои работы</a>
+                        <ul class="subMenu">
+                            <li><a href="#project-1" class="navigationLink workLink">Работа 1</a></li>
+                            <li id="li2"><a href="#project-2" class="navigationLink workLink" id="workLink2">Работа 2</a>
+                                <ul class="subMenu subMenu-2">
+                                    <li><a href="#" class="navigationLink workLink">Работа2.1</a></li>
+                                    <li><a href="#" class="navigationLink workLink">Работа2.2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#project-3" class="navigationLink workLink">Работа 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#about-me" class="navigationLink">Обо мне</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="navigationLink">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-1" id="about-me">
+            <div class="container section-1-container">
+                <div class="section-1-info">
+                    <h1>Я - фронтендер</h1>
+                    <p>Чтобы картинка подстроилась под нужные размеры, ей достаточно задать ширину, а высота пропорционально примет нужное значение.</p>
+                    <button>Связаться со мной</button>
+                </div>
+                <div class="photoWrapper">
+                    <img src="./img/cow.jpg" class="photo">
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="container section-2-container">
+                <div class="section-2-name">Я умею</div>
+                <div class="section-2-blocks">
+                    <div class="block">
+                        <div class="block-img">
+                            <img src="./img/html.jpg">
+                        </div>
+                        <div class="img-text">HTML</div>
+                    </div>
+                    <div class="block block-2">
+                        <div class="block-img">
+                            <img src="./img/book.jpg">
+                        </div>
+                        <div class="img-text">CSS</div>
+                    </div>
+                    <div class="block">
+                        <div class="block-img">
+                            <img src="./img/laptop.jpg">
+                        </div>
+                        <div class="img-text">JS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3" id="my-projects">
+            <div class="container section-3-container">
+                <div class="section-3-name">Мои проекты</div>
+                <div class="projects">
+                    <div class="projects-block" id="project-1">
+                        <div class="projects-block-img">
+                            <img src="./img/project.png">
+                        </div>
+                        <div class="projects-text">
+                            <span>Pабота 1</span>
+                            <p>Краткое описание работы</p>
+                        </div>
+                    </div>
+                    <div class="projects-block reverse" id="project-2">
+                        <div class="projects-block-img">
+                            <img src="./img/project.png">
+                        </div>
+                        <div class="projects-text">
+                            <span>Pабота 2</span>
+                            <p>Краткое описание работы</p>
+                        </div>
+                    </div>
+                    <div class="projects-block" id="project-3">
+                        <div class="projects-block-img">
+                            <img src="./img/project.png">
+                        </div>
+                        <div class="projects-text">
+                            <span>Pабота 3</span>
+                            <p>Краткое описание работы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="container section-4-container">
+                <div class="section-4-name">Оставьте заявку</div>
+                <div class="section-4-form-block">
+                    <form>
+                        <p>
+                            <input id="firstname" type="text" name="firstname" placeholder="Ваше имя" required>
+                        </p>
+                        <p>
+                            <input id="email" type="text" name="email" placeholder="Ваша почта" required>
+                        </p>
+                        <p>
+                            <input id="number" type="text" name="numbeer" placeholder="Ваш телефон" required>
+                        </p>
+                    </form>
+                    <div class="form-buttons">
+                        <button>Очистить</button>
+                        <button>Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-5" id="contacts">
+            <div class="container section-5-container">
+                <div class="section-5-name">Контакты</div>
+                <div class="links-box">
+                    <div class="box">
+                        <span>Github</span>
+                        <a href="https://github.com/danpimnov" target="_blank">Ссылка</a>
+                    </div>
+                    <div class="box box-2">
+                        <span>Telegram</span>
+                        <a href="https://t.me/danpimnoff" target="_blank">Ссылка</a>
+                    </div>
+                    <div class="box">
+                        <span>Телефон</span>
+                        <a>897654321</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <div class="nickName">
+                @DanielPimenov
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <a href="#my-projects" class="navigationLink">Мои работы</a>
+                    </li>
+                    <li>
+                        <a href="#about-me" class="navigationLink">Обо мне</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="navigationLink">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

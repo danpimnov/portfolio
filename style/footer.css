@@ -1,0 +1,39 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    color: white;
+}
+
+.nickName{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.navigationLink{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: column;
+    gap: 20px;
+}
+
+.workLink{
+    font-size: 28px;
+}
+
+#li2{
+    display: flex;
+    flex-direction: row;
+}

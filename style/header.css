@@ -1,0 +1,77 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    color: white;
+}
+
+.nickName{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.navigationLink{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: column;
+    gap: 20px;
+}
+
+.workLink{
+    font-size: 28px;
+}
+
+.subMenu{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    flex-direction: column;
+    visibility: hidden;
+    position: absolute;
+    
+}
+
+.navigationLink:hover ~ .subMenu{
+    visibility: visible;
+    background-color:#07203F;
+    transition: 0.4s linear;
+}
+
+.subMenu:hover{
+    visibility: visible;
+    background-color: #07203F;
+}
+
+#li2{
+    display: flex;
+    flex-direction: row;
+}
+
+.subMenu-2{
+    padding-left: 10px;
+    left:100%;
+    top: 37px;
+}
+
+#workLink2:hover ~ .subMenu{
+    visibility: visible;
+}
